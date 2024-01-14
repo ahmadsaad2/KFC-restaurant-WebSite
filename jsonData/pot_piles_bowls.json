@@ -1,0 +1,35 @@
+[
+  
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2019/12/512_KFC_Cale_Slaw-copy.png",
+        "name": "Coleslaw salad",
+
+        "price": 6,
+        "count":0,
+        "id": "1"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/25334_WOLT_Salad_Caesar_1440x810.webp",
+        "name": "Caesar salad",
+
+        "price": 24,
+        "count":0,
+        "id": "2"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%A1%D7%9C%D7%98-%D7%A7%D7%99%D7%A1%D7%A8-%D7%A2%D7%9D-%D7%A2%D7%95%D7%A3.jpg",
+        "name": "Caesar salad with chicken",
+
+        "price": 24,
+        "count":0,
+        "id": "3"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/23823_Kiosk_Chips_Large_512x512.jpg",
+        "name": "Medium fries",
+
+        "price": 17,
+        "count":0,
+        "id": "4"
+    }
+  ]

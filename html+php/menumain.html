@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='../css/index.css'>
+    <link rel="stylesheet" href="../css/menuPage.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="icon" href="../image/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scal e=1.0">
+    <title>KFC</title>
+    <meta name="description" content=" KFC is the world's most popular chicken restaurant chain, which engraves on its banner the preparation of fresh and delicious chicken, combined with excellent service and innovation anywhere in the world">
+    <script src="https://kit.fontawesome.com/2a66bc2625.js" crossorigin="anonymous" ;></script>
+
+</head>
+<body>
+<div id="pre_loader"></div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      document.getElementById("pre_loader").style.opacity = "0";
+      setTimeout(function() {
+        document.getElementById("pre_loader").style.display = "none";
+      }, 1000);
+    }, 1500);
+  });
+</script>
+
+<div class="navvv">
+
+
+    <nav>
+        <div id="logo">
+            <img src="../image/icon.png" style="object-fit: cover;
+            width: 100px;
+            height: 100px;">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="mainpage.php">Home</a></li>
+            <li><a class="Home" href="menu.html">Our Menu</a></li>
+            <li><a href="cartPage.html">Order Online</a></li>
+            <li><a href="findkfc.php">Find a Kfc</a></li>
+            <li><a href="aboutkfc.php">About Kfc</a></li>
+            <li><a href="wanted.php">Wanted</a></li>
+            <div class="show_div">
+                <a class="nav-item" href="../html+php/cartPage.html"><i class="fa-solid fa-suitcase"></i></a>
+                <p class="show_text">My Cart</p>
+            </div>
+            <li><a href="logout.php">log out</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+
+<!--  KFC MENU-->
+
+
+        <div id="menu_page_main_div">
+            <div>
+                <div id="side_menu_bar_outer_div">
+                    <div id="side_menu_bar">
+                        <div>
+                            <div id="menu_bar_red_lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div>
+                                <h1>KFC MENU</h1>
+                            </div>
+
+                            <h3><a href="#1">Featured</a></h3>
+                            <a href="#2">Chicken Buckets</a><br>
+                            <a href="#3">Tenders</a><br>
+                            <a href="#4">Sandwiches</a><br>
+                            <a href="#6">Salad & extra</a><br>
+                            <a href="#2">Rice Meals</a><br>
+                            <a href="#3">Box meals</a><br>
+                            <a href="#4">burgers</a><br>
+                            <a href="#6">Snacks & Drink</a><br>
+
+                        </div>
+
+                    </div>
+                </div>
+<!--        -->
+        <div id="menu_page_items">
+            <div id="1"  class="food_cards">
+                <div class="heading_feature_card_filter">
+                    <h1 >Menu</h1>
+                    <h3>Filter : </h3>
+                    <select id="filter">
+                        <option value="">Default</option>
+                        <option value="lth">Low To High</option>
+                        <option value="htl">High To Low</option>
+                    </select>
+                </div>
+                <div id="featured_products" class="featured_cards">
+
+                </div>
+            </div>
+            <div id="2" class="food_cards">
+                <h1 >BUCKETS</h1>
+                <div  id="bucket_items" class="featured_cards"></div>
+            </div>
+            <div id="3" class="food_cards">
+                <h1 >TENDERS</h1>
+                <div  id="tender_items" class="featured_cards"></div>
+            </div>
+            <div id="4" class="food_cards">
+                <h1 >SANDWICHES</h1>
+                <div id="sandwiches_items" class="featured_cards"></div>
+            </div>
+
+            <div id="6" class="food_cards">
+                <h1 >SALLADS & EXTRAS</h1>
+                <div id="pot_pies_bowls_items" class="featured_cards"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<hr style="border: 1px solid red;
+        width: 100%;
+
+margin-top: 80px;
+">
+<address>
+    <div class="add">
+        <div class="kfc-add">
+            <img src="../image/img11-.png" class="add-logo">
+            <div class="phone"><img src="../image/store.png">1700 888 777</div>
+            <div class="phone"><img src="../image/store.png">0923847444</div>
+
+        </div>
+        <div class="kfc-icon">
+            <a href="https://twitter.com/kfc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../image/twitter.png"></a>
+            <a href="https://www.facebook.com/palestinekfc"><img src="../image/facebook.png"></a>
+            <a href="https://www.instagram.com/kfcpalestine/?hl=en"><img src="../image/instagram.png"></a>
+        </div>
+    </div>
+</address>
+<!--last-->
+<div class="footer2">
+
+
+    <div class="footerFoot">
+        <div class="kfcLogo">
+            <img src="../image/icom.png" />
+        </div>
+
+        <ul>
+            <li>KFC Food</li>
+            <li><a href="menu.html">Menu</a></li>
+            <li>Order Lookup</li>
+
+        </ul>
+
+        <ul>
+            <li>Support</li>
+            <li>Contact Us</li>
+            <li>KFC Feedbacks</li>
+        </ul>
+
+        <ul>
+            <li>Legal</li>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="Privacy.html">Privacy Policy</a></li>
+
+        </ul>
+
+        <ul>
+            <li>About KFC</li>
+            <li>KFC Care</li>
+            <li>Careers</li>
+        </ul>
+
+        <div class="location">
+            <div class="locationLogo">
+                <img src="https://i.ibb.co/S6q7QpV/Find-KFC-removebg-preview.png" />
+            </div>
+            <div><a href="">Find a KFC</a></div>
+            <div><p>Copyright ©KFC&Ahmad Rights Reserved</p></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<!--<script src="../script/navbar.js"></script>-->
+<script src="../script/menuPage.js"></script>

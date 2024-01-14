@@ -1,0 +1,53 @@
+[
+  
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/23823_Kiosk_New_512x512_all_star_bucket.jpg",
+        "name": "All-star bucket",
+        "price": 42,
+        "count":0,
+        "id": "1"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/23823_Kiosk_New_512x512_Duet_Bucket.jpg",
+        "name": "Bucket duet",
+        "price": 80,
+        "count":0,
+        "id": "2"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/23823_Kiosk_New_colonel_bucket_512x512.jpg",
+        "name": "Colonel’s bucket",
+        "price": 85,
+        "count":0,
+        "id": "3"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2023/05/23823_Kiosk_New_10x10_512x512.jpg",
+        "name": "Bucket 10/10",
+        "price": 95,
+        "count":0,
+        "id": "4"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2023/05/23823_Kiosk_New_bucket_15_Strips_800x700.jpg",
+        "name": "15 Strips bucket",
+        "price": 115,
+        "count":0,
+        "id": "5"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/25334_WOLT_3_of_al_etzem_1440x810-1024x576.webp",
+        "name": "Chicken on the bone 5pcs",
+        "price": 58,
+        "count":0,
+        "id": "6"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%A2%D7%95%D7%A3-%D7%A2%D7%9C-%D7%94%D7%A2%D7%A6%D7%9D-2-%D7%99%D7%97%D7%99%D7%93%D7%95%D7%AA.jpg",
+        "name": "2 Chicken on the bone pieces meal",
+
+        "price": 47,
+        "count":0,
+        "id": "7"
+    }
+  ]

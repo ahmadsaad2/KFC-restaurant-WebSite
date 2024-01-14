@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" href="../css/checkoutPage.css">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</head>
+<body>
+    <a href="../html+php/cartPage.html"><button id="back_button">Back</button></a>
+    <div id="checkout_div">
+        <div id="red_lines">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <form action="add_order.php" class="form-contact" method="post" >
+            <h1>CHECKOUT</h1>
+            <label>Name</label>
+            <input id="namec" type="text">
+            <label>Address</label>
+            <input id=addressc" type="text">
+            <label> Email</label>
+            <input id="emailc" type="text">
+            <label>Card Number</label>
+            <input id="payment" type="number">
+            <label>Cardholder Name</label>
+            <input type="text">
+            <label>Expiry Date</label>
+            <input type="date">
+            <label>CVV</label>
+            <input type="number">
+            <div id="confirm_div">
+                <button type="submit" id="confirm_button" name="confirm_b"><a>Confirm Payment</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const submit = document.getElementsByClassName("form-contact")[0];
+
+        submit.addEventListener('submit', (e) => {
+            e.preventDefault();
+            console.log("clicked");
+
+            const name = document.getElementById("namec");
+
+
+            const nameValue = name.value;
+
+
+            var subject = "Your checkout is successfully completed and your order is waiting for you";
+            let body = "Name: " + nameValue + "<br/>Email: kfc.nablus.com" + "<br/>Address: nablus "  + "<br/>Payment: Visa"  + "<br/>Subject: " + subject;
+
+            Email.send({
+                SecureToken: "801c46b2-1cd6-46ea-a1ef-6580a5c30316",
+                To: 'kfc.nablus@gmail.com',
+                From: "kfc.nablus@gmail.com",
+                Subject: "KFC Restaurant - Order Confirmation",
+                Body: body
+            }).then(
+                message => {
+                    alert(message);
+                    // Redirect to the main page
+                    window.location.href = "../html+php/mainPage.php";
+                }
+            );})
+    });
+</script>
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC:Cart</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/cartPage.css">
+    <link rel='stylesheet' href='../css/index.css'>
+  <link rel="icon" type="image/x-icon" href="assets/images/webLogo3.png">
+</head>
+<body>
+
+  
+    <!-- navbar -->
+    <nav>
+        <div id="cart_page_navbar">
+          <div>
+            
+            <a href="../html+php/menu.html"><button id="cart_button" >Back To Menu</button></a>
+              <h2><a class="webName" href="../html+php/mainpage.php">Kfc</a>
+            </h2>
+            
+            <div class="show_div" id="login_icon">
+              <a id="show_icon" class="nav-item" href="loginPage.html"><i class="fa-sharp fa-solid fa-user"></i></a>
+
+            </div>
+
+        </div>
+    </div>
+      </nav>
+     <div style="display: none;" id="cart_items_div">
+      <p>You have <span style="color: #e86615;" id="total_qty"></span>in your order.</p>
+      <table>
+        <thead>
+          <tr>
+
+            <th>NAME</th>
+            <th>IMAGE</th>
+            <th>PRICE</th>
+            <th>QTY.</th>
+            <th>TOTAL</th>
+            <th>REMOVE</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        
+      </table>
+      <div id="table_footer">
+        <h2>SUBTOTAL - <span id="subtotal"></span></h2>
+        <div >
+         <a href="../html+php/menumain.html"><button>CONTINUE ORDERING</button></a>
+          <a href="checkoutPage.html"><button>CHECKOUT</button></a>
+        </div>
+      </div>
+     </div>
+     <div id="cart_bag_empty">
+        <div>
+        <div id="text_button_div">
+            <h1>YOUR BAG IS EMPTY. LET’S START AN ORDER!</h1>
+            <button><a href="menumain.html">Start Order</a></button>
+        </div>
+        <div id="image_div">
+            <img src="https://www.kfc.com/_next/static/images/empty-bucket-835c4f452fae1420a288523f2c1ead2b.png" alt="">
+        </div>
+    </div>
+     </div>
+    </div>
+    <address>
+        <div class="add">
+            <div class="kfc-add">
+                <img src="../image/img11-.png" class="add-logo">
+                <div class="phone"><img src="../image/store.png">1700 888 777</div>
+                <div class="phone"><img src="../image/store.png">0923847444</div>
+
+            </div>
+            <div class="kfc-icon">
+                <a href="https://twitter.com/kfc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../image/twitter.png"></a>
+                <a href="https://www.facebook.com/palestinekfc"><img src="../image/facebook.png"></a>
+                <a href="https://www.instagram.com/kfcpalestine/?hl=en"><img src="../image/instagram.png"></a>
+            </div>
+        </div>
+    </address>
+    <!--last-->
+
+    <div class="footer2">
+
+
+        <div class="footerFoot">
+            <div class="kfcLogo">
+                <img src="../image/icom.png" />
+            </div>
+
+            <ul>
+                <li>KFC Food</li>
+                <li><a href="menu.html">Menu</a></li>
+                <li>Order Lookup</li>
+
+            </ul>
+
+            <ul>
+                <li>Support</li>
+                <li>Contact Us</li>
+                <li>KFC Feedbacks</li>
+            </ul>
+
+            <ul>
+                <li>Legal</li>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+                <li><a href="Privacy.html">Privacy Policy</a></li>
+
+            </ul>
+
+            <ul>
+                <li>About KFC</li>
+                <li>KFC Care</li>
+                <li>Careers</li>
+            </ul>
+
+            <div class="location">
+                <div class="locationLogo">
+                    <img src="https://i.ibb.co/S6q7QpV/Find-KFC-removebg-preview.png" />
+                </div>
+                <div><a href="">Find a KFC</a></div>
+                <div><p>Copyright ©KFC& All Rights Reserved</p></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script src="../script/cartPage.js"></script>

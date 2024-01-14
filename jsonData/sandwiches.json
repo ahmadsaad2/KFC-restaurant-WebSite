@@ -1,0 +1,51 @@
+[
+  
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%99%D7%98%D7%95%D7%95%D7%99%D7%A1%D7%98%D7%A8-%D7%91%D7%95%D7%93%D7%93.jpg",
+        "name": "Classic iTwister",
+
+        "price": 10,
+        "count":0,
+        "id": "1"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%98%D7%95%D7%95%D7%99%D7%A1%D7%98%D7%A8-%D7%91%D7%95%D7%93%D7%93.jpg",
+        "name": "Classic / Spicy Twister",
+
+        "price": 20,
+        "count":0,
+        "id": "2"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%91%D7%95%D7%A7%D7%A1-%D7%9E%D7%90%D7%A1%D7%98%D7%A8.webp",
+        "name": "Classic / Spicy Box master",
+
+        "price": 24,
+        "count":0,
+        "id": "3"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/25334_WOLT_Twister_meal_1440x810.webp",
+        "name": "Classic iTwister meal",
+
+        "price": 29,
+        "count":0,
+        "id": "4"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2019/12/twister-meal-1.png",
+        "name": "Spicy / Classic Twister meal",
+        "price": 49,
+        "count":0,
+        "id": "5"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%E2%80%8F%E2%80%8F%D7%90%D7%A8%D7%95%D7%97%D7%AA-%D7%91%D7%95%D7%A7%D7%A1-%D7%9E%D7%90%D7%A1%D7%98%D7%A8-%D7%A2%D7%95%D7%AA%D7%A7.jpeg",
+        "name": "Classic box master meal",
+        "price": 53,
+        "count":0,
+        "id": "6"
+    }
+
+    
+  ]

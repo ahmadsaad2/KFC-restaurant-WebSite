@@ -1,0 +1,33 @@
+[
+  
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%A8%D7%95%D7%97%D7%AA-%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A7-%D7%91%D7%95%D7%A8%D7%92%D7%A8.jpeg",
+        "name": "Classic burger meal",
+        "price": 41,
+        "count":0,
+        "id": "1"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%A8%D7%95%D7%97%D7%AA-%D7%96%D7%99%D7%A0%D7%92%D7%A8-%D7%91%D7%95%D7%A8%D7%92%D7%A8.jpeg",
+        "name": "Zinger burger meal",
+
+        "price": 41,
+        "count":0,
+        "id": "2"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/23823_Kiosk_New_Tower_Classic_burger_meal_800x700.webp",
+        "name": "Tower classic/zinger burger meal",
+        "price": 50,
+        "count":0,
+        "id": "3"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%A8%D7%95%D7%97%D7%AA-%D7%93%D7%90%D7%91%D7%9C-%D7%98%D7%90%D7%95%D7%95%D7%A8.jpeg",
+        "name": "Double Tower classic/zinger burger meal",
+
+        "price": 58,
+        "count":0,
+        "id": "4"
+    }
+  ]

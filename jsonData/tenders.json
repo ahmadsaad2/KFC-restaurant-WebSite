@@ -1,0 +1,50 @@
+[
+  
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/3-%D7%A1%D7%98%D7%A8%D7%99%D7%A4%D7%A1-1024x576.webp",
+        "name": "Strips 8pcs",
+
+        "price": 80,
+        "count":0,
+        "id": "1"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%A8%D7%95%D7%97%D7%AA-%D7%A1%D7%95%D7%9C%D7%95.jpg",
+        "name": "Solo meal",
+
+        "price": 42,
+        "count":0,
+        "id": "2"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%A8%D7%95%D7%97%D7%AA-5-%D7%A1%D7%98%D7%A8%D7%99%D7%A4%D7%A1.jpg",
+        "name": "5 Strips meal",
+
+        "price": 58,
+        "count":0,
+        "id": "3"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/3-%D7%9B%D7%A0%D7%A4%D7%99%D7%99%D7%9D-1024x576.jpg",
+        "name": "Hot wings",
+        "price": 32,
+        "count":0,
+        "id": "4"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/6-%D7%91%D7%99%D7%99%D7%98%D7%A1-%D7%A2%D7%95%D7%AA%D7%A7-1024x576.webp",
+        "name": "4 Bites",
+        "price": 17,
+        "count":0,
+        "id": "5"
+    },
+    {
+        "image": "https://www.kfc.co.il/wp-content/uploads/2022/11/%D7%90%D7%A8%D7%95%D7%97%D7%AA-9-%D7%91%D7%99%D7%99%D7%98%D7%A1.jpg",
+        "name": "9 Bites meal",
+
+        "price": 50,
+        "count":0,
+        "id": "6"
+    }
+    
+  ]
